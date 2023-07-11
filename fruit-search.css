@@ -1,0 +1,72 @@
+* {
+     box-sizing: border-box; 
+  }
+  
+  body {
+    text-align: center;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 36px;
+    background: linear-gradient(to right, rgb(255, 221, 0),rgb(253, 191, 5), orange, rgb(255, 94, 0));
+  }
+  
+  input {
+   margin-top: 250px;
+   border-color: rgb(255, 94, 0);
+   opacity: 70%;
+   border-radius: 5px;
+  }
+  
+  .search-container {
+    width: 450px;
+    position: relative;
+    margin: auto;
+  }
+
+  .suggestions{
+    margin: 0;
+  }
+
+  .search-container input {
+    background: rgba(255, 255, 255, 0.2);
+    height: 60px;
+    padding: 0;
+  }
+  .search-container .suggestions {
+    position: absolute;
+    top: 60px;
+  }
+
+  input, ul, li{
+    width: 450px;
+  }
+  
+  ul {
+    padding: 0;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    max-height: 500px;
+    overflow-y: hidden;
+    border-radius: 5px;
+    border: 1px rgb(255, 94, 0);
+  }
+
+  ul.has-suggestions {
+    display: block; 
+    margin: auto;
+    
+    
+
+  }
+  ul li {
+  list-style-type: none;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.2);
+  margin: auto;
+  
+
+  
+  }
+  ul li:hover {
+    background: rgb(255, 94, 0);
+  }
+  
+ 
